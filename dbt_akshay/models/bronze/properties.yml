@@ -1,0 +1,6 @@
+models:
+  # Model name must match the filename of a model -- including case sensitivity
+  - name: bronze_dim_date
+    description: Date for quarterly related calculations
+    config:
+      materialized: table
